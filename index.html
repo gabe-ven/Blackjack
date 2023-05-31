@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, inital-scale=1.0" />
+    <title>Black Jack</title>
+    <link rel="stylesheet" href="blackjack.css" />
+  </head>
+
+  <body>
+    <h2>DEALER: <span id="dealer-sum"></span></h2>
+    <div id="dealer-cards">
+      <img id="hidden" src="./cards/back.png" />
+    </div>
+
+    <h2>YOU: <span id="your-sum"></span></h2>
+    <div id="your-cards"></div>
+
+    <br />
+    <button id="hit" onclick="audio2.play();">HIT</button>
+    <button id="stay" onclick="audio.play();">STAY</button>
+    <br />
+    <button id="restartBtn">↻</button>
+
+    <div id="result-message"></div>
+    <script src="blackjack.js"></script>
+    <script>
+      const audio = new Audio();
+      audio.src = "./click.mp3";
+      const audio2 = new Audio();
+      audio2.src = "./click2.mp3";
+    </script>
+  </body>
+</html>
