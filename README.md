@@ -1,3 +1,4 @@
+# BlackJack Game
 
 ## Description:
 I created a simple Blackjack game using HTML, CSS, and JavaScript. The game features an interactive interface where the player can draw cards ("Hit") or stick with their current hand ("Stay") while aiming to get as close to 21 as possible without going over. The dealer follows traditional Blackjack rules, drawing cards until reaching at least 17. Here are the basic rules of the game.
