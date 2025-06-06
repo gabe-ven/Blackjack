@@ -1,31 +1,56 @@
-# BlackJack Game
+# Blackjack Game
 
-## Description:
-I created a simple Blackjack game using HTML, CSS, and JavaScript. The game features an interactive interface where the player can draw cards ("Hit") or stick with their current hand ("Stay") while aiming to get as close to 21 as possible without going over. The dealer follows traditional Blackjack rules, drawing cards until reaching at least 17. Here are the basic rules of the game.
+## Overview
+This is a simple yet interactive Blackjack game built with **HTML**, **CSS**, and **JavaScript**. The player competes against a dealer with the goal of getting a hand value as close to 21 as possible without exceeding it. The game follows standard Blackjack rules, providing an intuitive and fun user experience through an easy-to-use interface.
 
-## Rules:
-Card Values:
-- Number cards (2-10) are worth their face value.
-- Face cards (King, Queen, Jack) are worth 10 points.
-- Aces can be worth 1 or 11 points, depending on which is more advantageous.
+---
 
-Setup:
-- Two cards are dealt to the "player" and the "dealer." Both hands aim to get as close to 21 as possible.
-- The dealer reveals one card face-up, while the other remains face-down.
+## How to Play
 
-Actions:
-- The player chooses to:
-  - Hit: Take another card to increase the hand value.
-  - Stand: Keep the current hand and end the turn.
-- The dealer plays after the player. The dealer must draw cards until their hand is at least 17.
+- **Objective:** Get a hand value closer to 21 than the dealer without going over (busting).
+- You start with two cards, and so does the dealer.
+- One of the dealer’s cards is visible; the other remains hidden until the dealer’s turn.
+- You can choose to:
+  - **Hit:** Draw another card to improve your hand.
+  - **Stand:** Keep your current hand and end your turn.
+- After you stand, the dealer draws cards until reaching a minimum hand value of 17.
+- The game then determines the winner based on who has the higher valid hand.
 
-Outcome:
-- The hand closest to 21 without exceeding it wins.
-- A hand value over 21 is a "bust" and automatically loses.
-- A hand totaling exactly 21 with the first two cards is a "blackjack" and beats all other hands.
+---
 
+## Rules & Card Values
 
-## Quick video demonstration:
+- **Number cards (2-10):** Worth their face value.
+- **Face cards (King, Queen, Jack):** Worth 10 points.
+- **Aces:** Can count as either 1 or 11 points, whichever benefits the hand more.
 
-https://github.com/user-attachments/assets/9da9603b-95db-40ab-9513-bd8e609e7045
+- **Bust:** Exceeding 21 points results in an automatic loss.
+- **Blackjack:** A two-card hand totaling exactly 21 beats all other hands.
 
+---
+
+## Features
+
+- Real-time card drawing and hand value updates.
+- Automatic dealer play following Blackjack rules.
+- Clear display of player and dealer cards.
+- Simple, clean user interface for ease of play.
+
+---
+
+## Demo
+
+Try the game live here:  
+[Play Blackjack Online](https://gabe-ven.github.io/Blackjack/)
+
+---
+
+## How to Run
+
+1. Clone or download this repository.
+2. Open `index.html` in any modern web browser.
+3. Start playing immediately—no installation required!
+
+---
+
+Feel free to reach out if you want to contribute or suggest improvements!
